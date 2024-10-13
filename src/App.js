@@ -4,6 +4,7 @@ import Experiences from './components/Experiences';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import BackgroundView from './Layout/BackgroundView';
+import Whyhireme from './components/Whyhireme';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Main />
         <Projects />
         <Experiences />
+        <Whyhireme></Whyhireme>
         <Contact />
       </div>
     </BackgroundView>
