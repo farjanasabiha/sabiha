@@ -20,7 +20,7 @@ function Projects({image, name, live, source, desc}) {
         </div>
         
         <div className='w-full sm:w-1/2'>
-            <img alt='project' src={image} className='rounded-md w-full sm:w-[60%]' />
+            <img alt='project' src={image} className='rounded-md w-full h-[500px] sm:w-[60%]' />
         </div>
     </div>
   );
